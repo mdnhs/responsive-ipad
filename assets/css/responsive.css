@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1366px) {
+  div.imageslidevector {
+    height: 70vh;
+    width: 50vh;
+  }
+  div.carosol-contentmark {
+    padding: 200px 170px 100px 0px;
+  }
+  div.content-slider-text {
+    padding-top: 150px;
+  }
+  div.header-menu ul li {
+    padding: 0px 55px;
+  }
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  div.imageslidevector {
+    height: 70vh;
+    width: 50vh;
+  }
+  div.carosol-contentmark {
+    padding: 200px 170px 100px 0px;
+  }
+  div.content-slider-text {
+    padding-top: 150px;
+  }
+  div.header-menu ul li {
+    padding: 0px 55px;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)  {
+  div.imageslidevector {
+    height: 65vh;
+    width: 65vh;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+  div.imageslidevector {
+    height: 65vh;
+    width: 65vh;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+/* @media (max-width: 900px) {
+  .main-body {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  body {
+    background-image: linear-gradient(to right, #0AC4F8 , #606DCD) !important;
+  }
+} */
+
+.mobile {
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767px) {
+  .main-body {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    height: 100%;
+  }
+}

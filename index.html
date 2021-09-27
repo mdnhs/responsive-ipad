@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Potential</title>
+	<link rel="shortcut icon" href="#" />
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawsame-all.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="logInModalLabel">Log In</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="mb-3">
+							<label class="form-label">Email address</label>
+							<input type="email" class="form-control" aria-describedby="emailHelp">
+							<div class="form-text">We'll never share your email with anyone
+								else.</div>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputPassword1" class="form-label">Password</label>
+							<input type="password" class="form-control">
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="logInCheck">
+							<label class="form-check-label" for="logInCheck">Remember me</label>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Log In</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Name</label>
+							<input type="email" class="form-control" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Phone
+								number</label>
+							<input type="email" class="form-control" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email
+								address</label>
+							<input type="email" class="form-control" aria-describedby="emailHelp">
+							<div class="form-text">We'll never share your email with anyone
+								else.</div>
+						</div>
+						<div class="mb-3">
+							<label class="form-label">Password</label>
+							<input type="password" class="form-control">
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="signUpCheck">
+							<label class="form-check-label" for="signUpCheck">I accept term &
+								conditions</label>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile">
+		<div class="bg-image">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+				<div class="container">
+					<div class="navbar-brand">
+						<button type="button" class="btn btn-light text-info fw-bold px-4" data-bs-toggle="modal"
+							data-bs-target="#exampleModal">
+							Log In
+						</button>
+					</div>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item me-5 mt-3">
+								<button type="button" class="signupbtn px-4 fw-bold btn btn-outline-light"
+									data-bs-toggle="modal" data-bs-target="#exampleModal2">
+									Sign Up
+								</button>
+							</li>
+
+							<li class="nav-item me-5 mt-3">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item me-5 mt-2">
+								<a class="nav-link" href="#">Price</a>
+							</li>
+							<li class="nav-item mt-2">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+					<img src="assets/images/slider/vector-1.svg" class="img-fluid" alt="">
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active text-center pb-3">
+								<h1 class="display-5 text-white mb-0">INNOVATIVE</h1>
+								<h2 class="display-6 text-white">WEBSITES</h2>
+								<p class="text-white w-75 m-auto">Innovation in its modern meaning is "a new idea,
+									creative
+									thoughts, new imaginations in form of device or method"
+								</p>
+							</div>
+							<div class="carousel-item text-center pb-3">
+								<h1 class="display-5 text-white mb-0">TECHNOLOGY</h1>
+								<h2 class="display-6 text-white">WEBSITES</h2>
+								<p class="text-white w-75 m-auto text-center">Lorem ipsum dolor sit amet consectetur
+									adipisicing elit.
+									Quis, facere? Eos delectus consequuntur</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-body">
+		<div class="row">
+			<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12">
+				<div class="py-4"></div>
+				<div class="py-2"></div>
+				<!-- Start of Side Nav -->
+				<div class="side-nav">
+					<ul class="m-0 p-0">
+						<li><a href="#"><img src="assets/images/icon/fb.svg" alt="" /></a></li>
+						<li><a href="#"><img src="assets/images/icon/youtube.svg" alt="" /></a></li>
+						<li><a href="#"><img src="assets/images/icon/twitter.svg" alt="" /></a></li>
+					</ul>
+					<div class="py-4"></div>
+					<div class="py-2"></div>
+					<div class="devider"></div>
+					<h3>01</h3>
+					<p>
+						<a href="#"><img src="assets/images/icon/share.svg" alt="" /></a>
+					</p>
+				</div>
+			</div>
+			<div class=" col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+				<div class="lander-area">
+					<!-- Start of header Nav -->
+					<div class="head-navbar">
+						<div class="sign-buttons float-start">
+							<!-- Button trigger modal -->
+							<button type="button" class="form-button" data-bs-toggle="modal"
+								data-bs-target="#loginModal">
+								Log In
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="logInModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="logInModalLabel">Log In</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal"
+												aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="mb-3">
+													<label class="form-label">Email address</label>
+													<input type="email" class="form-control"
+														aria-describedby="emailHelp">
+													<div class="form-text">We'll never share your email with anyone
+														else.</div>
+												</div>
+												<div class="mb-3">
+													<label for="exampleInputPassword1"
+														class="form-label">Password</label>
+													<input type="password" class="form-control">
+												</div>
+												<div class="mb-3 form-check">
+													<input type="checkbox" class="form-check-input" id="logInCheck">
+													<label class="form-check-label" for="logInCheck">Remember me</label>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary"
+												data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Log In</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Button trigger modal -->
+							<button type="button" class="form-button signUp" data-bs-toggle="modal"
+								data-bs-target="#signUpModal">
+								Sign Up
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal"
+												aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="mb-3">
+													<label for="exampleInputEmail1" class="form-label">Name</label>
+													<input type="email" class="form-control"
+														aria-describedby="emailHelp">
+												</div>
+												<div class="mb-3">
+													<label for="exampleInputEmail1" class="form-label">Phone
+														number</label>
+													<input type="email" class="form-control"
+														aria-describedby="emailHelp">
+												</div>
+												<div class="mb-3">
+													<label for="exampleInputEmail1" class="form-label">Email
+														address</label>
+													<input type="email" class="form-control"
+														aria-describedby="emailHelp">
+													<div class="form-text">We'll never share your email with anyone
+														else.</div>
+												</div>
+												<div class="mb-3">
+													<label class="form-label">Password</label>
+													<input type="password" class="form-control">
+												</div>
+												<div class="mb-3 form-check">
+													<input type="checkbox" class="form-check-input" id="signUpCheck">
+													<label class="form-check-label" for="signUpCheck">I accept term &
+														conditions</label>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary"
+												data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Sign Up</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-menu float-end">
+							<ul class="m-0 p-0">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Price</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#"><img src="assets/images/icon/burger.svg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Start of Slider content Nav -->
+					<div class="carasoul-slider">
+						<div class="innerslider">
+							<div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+									<button type="button" data-bs-target="#carouselFade" data-bs-slide-to="0"
+										class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#carouselFade" data-bs-slide-to="1"
+										aria-label="Slide 2"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="carasol-content">
+											<div class="carosol-contentmark">
+												<div class="row">
+													<div class="col-lg-8 col-md-12">
+														<div class="imageslidevector"></div>
+													</div>
+													<div class="col-lg-4 col-md-12">
+														<div class="content-slider-text">
+															<h1>INNOVATIVE</h1>
+															<h2>WEBSITES</h2>
+															<p>Innovation in its modern meaning is "a new idea, creative
+																thoughts, new imaginations in form of device or method"
+															</p>
+															<button>SUBSCRIBE</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="carasol-content">
+											<div class="carosol-contentmark">
+												<div class="row">
+													<div class="col-lg-8 col-md-12">
+														<div class="imageslidevector"></div>
+													</div>
+													<div class="col-lg-4 col-md-12">
+														<div class="content-slider-text">
+															<h1>TECHNOLOGY</h1>
+															<h2>WEBSITES</h2>
+															<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+																Quis, facere? Eos delectus consequuntur</p>
+															<button>SUBSCRIBE</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="controler-slide">
+								<a href="#carouselFade" type="button" data-bs-slide="prev"><img
+										src="assets/images/icon/prev.svg" alt=""></a>
+								<a href="#carouselFade" type="button" data-bs-slide="next"><img
+										src="assets/images/icon/next.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/fontawsame-all.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

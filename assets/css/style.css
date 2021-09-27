@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  src: url("../fonts/AnikSikder.ttf");
+  font-family: "AnikSikder";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: AnikSikder;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Start of Hero Section */
+
+body {
+  overflow-x: hidden;
+}
+
+div.main-body {
+  height: 100vh;
+  background-color: #fff;
+}
+
+div.side-nav ul li a img,
+div.side-nav p a img {
+  width: 33px;
+  height: 33px;
+}
+
+div.side-nav ul li {
+  padding: 12px 0px;
+}
+
+div.side-nav {
+  padding: 10px 50px 10px 70px;
+  box-sizing: border-box;
+}
+
+div.devider {
+  height: 5px;
+  background-color: #5d6fce;
+}
+
+div.side-nav h3 {
+  color: #5d6fce;
+  text-align: right;
+  padding-top: 10px;
+}
+
+div.side-nav p {
+  position: fixed;
+  bottom: 30px;
+  left: 70px;
+  width: 100%;
+}
+
+div.lander-area {
+  height: 100vh;
+  background-color: #fff;
+  padding: 15px 15px 15px 0px;
+  position: relative;
+}
+
+div.head-navbar {
+  position: sticky;
+  top: 15px;
+  width: 100%;
+  left: 0px;
+  padding: 60px 50px;
+  clear: both;
+  z-index: 9999;
+}
+
+div.sign-buttons button.form-button {
+  margin: 0px 7px;
+  padding: 9px 30px;
+  background-color: white;
+  color: #00cdfb;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+div.sign-buttons button.signUp {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+div.sign-buttons button.signUp:hover {
+  background-color: #fff;
+  color: #00cdfb;
+  border: 1px solid transparent;
+}
+
+button.btn-close:focus {
+  box-shadow: none !important;
+}
+
+div.header-menu ul li {
+  display: inline-block;
+  padding: 0px 70px;
+}
+
+div.header-menu ul li:nth-child(4) {
+  padding-right: 0px;
+}
+
+div.header-menu ul li a img {
+  height: 25px;
+  width: 25px;
+}
+
+div.header-menu ul li a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+div.header-menu ul li a:hover {
+  color: #00cdfb;
+}
+
+div.carasoul-slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+div.carasol-content {
+  background-image: url("../images/slider/slider-bg-1.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 15px solid #fff;
+  border-left: none;
+}
+
+div#carouselFade
+  div.carousel-inner
+  div.carousel-item:nth-child(2)
+  div.carasol-content {
+  background-image: url("../images/slider/slider-bg-1.svg");
+}
+
+div#carouselFade div.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  background-color: white !important;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+div#carouselFade div.carousel-indicators {
+  bottom: 50px;
+}
+
+div.innerslider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+div.controler-slide {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  z-index: 666;
+}
+
+div.controler-slide a img {
+  width: 90px;
+  height: 90px;
+  margin: 0px !important;
+}
+
+div.controler-slide a {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+div.controler-slide a:nth-child(2) {
+  margin-left: -4px !important;
+}
+
+div.imageslidevector {
+  background-image: url("../images/slider/vector-1.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.carosol-contentmark {
+  padding: 50px 50px 100px 50px;
+}
+
+div.content-slider-text h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+div.content-slider-text {
+  padding-top: 250px;
+}
+
+div.content-slider-text h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 60px;
+  color: #fff;
+  max-width: 390px;
+  text-align: right;
+}
+
+div.content-slider-text p {
+  color: #fff;
+  font-size: 19px;
+  text-align: right;
+  max-width: 400px;
+  margin: 40px 0px 60px 0px;
+}
+
+div.content-slider-text button {
+  padding: 17px 70px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s;
+  display: block;
+  margin: auto;
+}
+
+div.content-slider-text button:hover {
+  background-color: #fff;
+  color: #00cdfb;
+  border: 1px solid transparent;
+}

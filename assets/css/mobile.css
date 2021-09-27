@@ -1,0 +1,8 @@
+.bg-image {
+    background-image: linear-gradient(to right, #0AC4F8 , #606DCD) !important;
+    height: 100vh;
+}
+
+.signupbtn:hover {
+    color: aqua;
+}
